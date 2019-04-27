@@ -4,7 +4,17 @@
 ```
 练习时常两年半的project
 ```
+# AWS profile
+- [x] t2micro basic setup  | ec2-18-206-200-87.compute-1.amazonaws.com
+- [x] t2medium basic setup | ec2-3-88-146-174.compute-1.amazonaws.com
+- [x] t2xlarge basic setup | ec2-52-23-153-45.compute-1.amazonaws.com
+- [ ] m3xlarge basic setup (cluster) | ec2-52-3-254-27.compute-1.amazonaws.com
+- [ ] run kafka pipeline
+- [ ] run spark pipeline
+- [ ] benchmark kafka
+- [ ] benchmark spark
 
+1. 
 # Set up AWS
 
 Install JAVA 1.8.0_141
@@ -50,7 +60,7 @@ export SPARK_HOME=$(pwd)
 
 Set security groupe, add TCP/Custom port 8080 to inbound rules for your EC2 instance.
 
-Others
+Others (git, dockers)
 ```
 sudo su
 sudo yum update -y
