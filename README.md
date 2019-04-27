@@ -32,6 +32,10 @@ docker run -d -p 2181:2181 -p 2888:2888 -p 3888:3888 --name zookeeper confluent/
 ```
 nohup docker run -d -p 2181:2181 -p 2888:2888 -p 3888:3888 --name zookeeper confluent/zookeeper
 ```
+*** If you see demon is not running in AWS, try reboot the docker service manually
+```
+sudo service docker start
+```
 2. Start a Kafka Container
 ```
 docker run -d -p 9092:9092 -e KAFKA_ADVERTISED_HOST_NAME=localhost -e KAFKA_ADVERTISED_PORT=9092 --name kafka --link zookeeper:zookeeper confluent/kafka
