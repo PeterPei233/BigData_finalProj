@@ -30,7 +30,7 @@ docker run -d -p 2181:2181 -p 2888:2888 -p 3888:3888 --name zookeeper confluent/
 ```
 *** Run in background in ssh example
 ```
-nonhup docker run -d -p 2181:2181 -p 2888:2888 -p 3888:3888 --name zookeeper confluent/zookeeper
+nohup docker run -d -p 2181:2181 -p 2888:2888 -p 3888:3888 --name zookeeper confluent/zookeeper
 ```
 2. Start a Kafka Container
 ```
