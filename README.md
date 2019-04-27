@@ -14,7 +14,16 @@
 - [ ] benchmark kafka
 - [ ] benchmark spark
 
-1. 
+# SSH AWS
+Use the cs267.pom tocken in the repo
+access ec2
+```
+ssh -i cs267.pem ec2-user@ec2-xx-xxx-xxx-xx.compute-1.amazonaws.com
+```
+access cluster
+```
+ssh -i cs267.pem hadoop@ec2-52-3-254-27.compute-1.amazonaws.com
+```
 # Set up AWS
 
 Install JAVA 1.8.0_141
