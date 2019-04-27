@@ -14,10 +14,11 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 sudo yum install -y jdk-8u141-linux-x64.rpm
 ```
 
-Install Python 3.7
+Install Python 3.7 and pip-python2&3
 ```
 sudo yum install python3
 sudo yum install python3-pip
+sudo yum install python2-pip
 sudo pip-3.7 install kafka-python
 ```
 
@@ -47,9 +48,16 @@ cd spark-2.4.2-bin-hadoop2.7/
 export SPARK_HOME=$(pwd)
 ```
 
-
 Set security groupe, add TCP/Custom port 8080 to inbound rules for your EC2 instance.
 
+Others
+```
+sudo su
+sudo yum update -y
+yum install git
+yum install -y docker
+
+```
 # Helpful commands
 check port
 ```
