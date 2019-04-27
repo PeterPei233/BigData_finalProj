@@ -43,7 +43,7 @@ Install Spark 2.4
 wget https://www-eu.apache.org/dist/spark/spark-2.4.2/spark-2.4.2-bin-hadoop2.7.tgz
 tar -xzf spark-2.4.2-bin-hadoop2.7.tgz
 rm spark-2.4.2-bin-hadoop2.7.tgz 
-cd spark-2.4.2-bin-hadoop2.7.tgz 
+cd spark-2.4.2-bin-hadoop2.7/
 export SPARK_HOME=$(pwd)
 ```
 
