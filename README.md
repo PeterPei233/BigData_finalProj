@@ -39,6 +39,7 @@ sudo yum install python3
 sudo yum install python3-pip
 sudo yum install python2-pip
 sudo pip-3.7 install kafka-python
+pip --no-cache-dir install XXX //if you encounter memory error
 ```
 
 Install Kafka
