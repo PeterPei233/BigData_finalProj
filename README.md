@@ -52,4 +52,6 @@ open another terminal, go to your project folder, source virtual environment
 python data-consumer.py test 127.0.0.1:9092
 ```
 
+![img](https://github.com/PeterPei233/BigData_finalProj/blob/master/poster.png)
+
 
