@@ -4,6 +4,8 @@
 ```
 练习时常两年半的project
 ```
+![img](https://github.com/PeterPei233/BigData_finalProj/blob/master/cs267_proj.png)
+
 # Real Part I
 
 ### 1.1 python2
