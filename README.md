@@ -11,7 +11,8 @@
 ### 1.1 python2
 if you use python3, change it to python2. For anacoda, do this:
 ```
-source activate py2
+conda create -n python2 python=2.7 anaconda
+source activate python2
 ```
 
 ### 1.2 Install package
@@ -44,7 +45,7 @@ docker run -d -p 9092:9092 -e KAFKA_ADVERTISED_HOST_NAME=localhost -e KAFKA_ADVE
 ```
 3. run data-producer
 ```
-python data-producer.py BTC-USD test 127.0.0.1:9092
+python data-producer.py twitter test 127.0.0.1:9092
 ```
 4. run data-consumer 
 open another terminal, go to your project folder, source virtual environment
