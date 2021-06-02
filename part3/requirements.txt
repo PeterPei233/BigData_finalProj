@@ -11,5 +11,5 @@ requests==2.19.1
 schedule==0.5.0
 six==1.11.0
 thriftpy==0.3.9
-urllib3==1.23
+urllib3==1.26.5
 virtualenv==16.0.0
